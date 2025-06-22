@@ -1,0 +1,115 @@
+.footer_principal{
+    background-color: $negro;
+    color: $blanco;
+    padding: 48px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    svg{
+        width: 110.05px;
+        height: 40px;
+    }
+    p{
+        font-family: 'Outfit';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+
+    @include breakpoint(tablet){
+        display: flex;
+        flex-direction: row;
+        padding: 56px 40px;
+        justify-content: space-between;
+        svg{
+
+        }
+        p{
+            width: 40.78%;
+        }
+        ul{
+
+        }
+    }
+
+    @include breakpoint(desktop){
+        display: flex;
+        flex-direction: row;
+        padding: 80px 165px;
+        justify-content: space-between;
+        svg{
+            width: 159px;
+            height: 58px;
+        }
+        p{
+            width: 40.78%;
+        }
+        ul{
+
+        }
+    }
+}
+
+.ubicacion{
+    footer{
+        padding: 48px 32px;
+        background-color: $marron;
+        display: flex;
+        flex-direction: column;
+        gap: 38px;
+        color: $negro;
+        p{
+            font-family: 'Outfit';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 26px;
+        }
+        ul{
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    footer{
+        @include breakpoint(tablet){
+            display: flex;
+            flex-direction: row;
+            padding: 56px 40px;
+            justify-content: space-between;
+            svg{
+    
+            }
+            p{
+                width: 40.78%;
+            }
+            ul{
+    
+            }
+        }
+    }
+
+    footer{
+        @include breakpoint(desktop){
+            display: flex;
+            flex-direction: row;
+            padding: 80px 165px;
+            justify-content: space-between;
+            svg{
+                width: 159px;
+                height: 58px;
+            }
+            p{
+                width: 40.78%;
+            }
+            ul{
+    
+            }
+        }
+    }
+}

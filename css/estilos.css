@@ -1,0 +1,570 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer_principal {
+  background-color: #151515;
+  color: #FFFFFF;
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.footer_principal svg {
+  width: 110.05px;
+  height: 40px;
+}
+.footer_principal p {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+.footer_principal ul {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 1439px) and (min-width: 768px) {
+  .footer_principal {
+    display: flex;
+    flex-direction: row;
+    padding: 56px 40px;
+    justify-content: space-between;
+  }
+  .footer_principal p {
+    width: 40.78%;
+  }
+}
+@media (max-width: 5000px) and (min-width: 1440px) {
+  .footer_principal {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 165px;
+    justify-content: space-between;
+  }
+  .footer_principal svg {
+    width: 159px;
+    height: 58px;
+  }
+  .footer_principal p {
+    width: 40.78%;
+  }
+}
+
+.ubicacion footer {
+  padding: 48px 32px;
+  background-color: #D5966C;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  color: #151515;
+}
+.ubicacion footer p {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+.ubicacion footer ul {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 1439px) and (min-width: 768px) {
+  .ubicacion footer {
+    display: flex;
+    flex-direction: row;
+    padding: 56px 40px;
+    justify-content: space-between;
+  }
+  .ubicacion footer p {
+    width: 40.78%;
+  }
+}
+@media (max-width: 5000px) and (min-width: 1440px) {
+  .ubicacion footer {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 165px;
+    justify-content: space-between;
+  }
+  .ubicacion footer svg {
+    width: 159px;
+    height: 58px;
+  }
+  .ubicacion footer p {
+    width: 40.78%;
+  }
+}
+
+.principal header {
+  position: relative;
+}
+.principal header img {
+  max-width: 100%;
+}
+.principal header .hero {
+  padding: 32px 16px 0px 16px;
+}
+.principal header .hero h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 55px;
+  color: #151515;
+}
+.principal header .hero p {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  color: #444444;
+  padding-top: 32px;
+}
+.principal header .hero a {
+  display: flex;
+  padding-top: 32px;
+}
+.principal header .hero a span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 204px;
+  height: 72px;
+  background-color: #151515;
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.636px;
+  color: #FFFFFF;
+}
+.principal header .hero a img {
+  width: 56px;
+  height: 72px;
+  background: #D5966C;
+  padding: 24px 0px;
+}
+.principal header .hero a:hover span {
+  background-color: #D5966C;
+}
+.principal header .hero a:hover img {
+  background-color: #151515;
+}
+@media (max-width: 1439px) and (min-width: 768px) {
+  .principal header {
+    background-image: url(../../img/foto-principal-tablet.jpg);
+    background-size: 56.9%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+  }
+  .principal header .foto_principal {
+    display: none;
+  }
+  .principal header section {
+    position: absolute;
+    width: 44.14%;
+    max-width: 532px;
+    margin-left: 50.65%;
+    margin-top: 145px;
+  }
+  .principal header section .hero {
+    padding: 0px;
+  }
+  .principal header section .hero h1 {
+    font-size: 70px;
+    line-height: 65px;
+  }
+  .principal header section .hero p {
+    padding-top: 48px;
+  }
+  .principal header section .hero a {
+    padding-top: 48px;
+  }
+}
+@media (max-width: 5000px) and (min-width: 1440px) {
+  .principal header {
+    background-image: url(../../img/foto-principal-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 37.53%;
+    height: 800px;
+    background-position: 50.03% 0px;
+  }
+  .principal header::before {
+    display: flex;
+    position: absolute;
+    content: "";
+    width: 31.27%;
+    background-color: #151515;
+    height: 100%;
+    z-index: -2;
+  }
+  .principal header .foto_principal {
+    display: none;
+  }
+  .principal header section .hero {
+    padding: 189px 165px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .principal header section .hero h1 {
+    width: 514px;
+    color: #FFFFFF;
+    font-size: 96px;
+    line-height: 88px;
+  }
+  .principal header section .hero p {
+    width: 350px;
+  }
+  .principal header section .hero a {
+    padding-top: 64px;
+  }
+}
+
+.ubicacion header {
+  position: relative;
+}
+.ubicacion header img {
+  max-width: 100%;
+}
+.ubicacion header a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFFFFF;
+  display: flex;
+}
+.ubicacion header a img {
+  transform: rotate(180deg);
+  width: 56px;
+  height: 72px;
+  background-color: #D5966C;
+  padding: 20px;
+}
+.ubicacion header a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 208px;
+  height: 72px;
+  background-color: #151515;
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.636px;
+}
+@media (max-width: 6000px) and (min-width: 767px) {
+  .ubicacion .mapa {
+    display: none;
+  }
+}
+@media (max-width: 1439px) and (min-width: 768px) {
+  .ubicacion header {
+    width: 100%;
+    height: 600px;
+  }
+  .ubicacion header::before {
+    content: "";
+    display: flex;
+    background-image: url(../../img/mapa-tablet.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+  }
+  .ubicacion header a {
+    left: 39px;
+  }
+}
+@media (max-width: 5000px) and (min-width: 1440px) {
+  .ubicacion header {
+    width: 100%;
+    height: 600px;
+  }
+  .ubicacion header::before {
+    content: "";
+    display: flex;
+    background-image: url(../../img/mapa-desktop.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+  }
+  .ubicacion header a {
+    left: 159px;
+  }
+}
+
+.principal main {
+  padding: 120px 16px;
+}
+.principal main img {
+  width: 100%;
+}
+.principal main .primer_vistaso .inicio_galeria h2 {
+  font-family: "Big Shoulders Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 45px;
+  color: #151515;
+  padding-top: 25px;
+}
+.principal main .primer_vistaso .inicio_galeria p {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  color: #444444;
+  padding-top: 21px;
+}
+.principal main .galeria {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.principal main .galeria div {
+  background-color: #151515;
+  color: #FFFFFF;
+  padding: 48px 24px;
+}
+.principal main .galeria div h2 {
+  font-family: "Big Shoulders Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 45px;
+}
+.principal main .galeria div p {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  padding-top: 24px;
+}
+@media (max-width: 6000px) and (min-width: 767px) {
+  .principal main img {
+    display: none;
+  }
+}
+@media (max-width: 1439px) and (min-width: 768px) {
+  .principal main {
+    padding: 120px 40px;
+  }
+  .principal main .primer_vistaso {
+    display: flex;
+    justify-content: space-between;
+  }
+  .principal main .primer_vistaso::after {
+    content: "";
+    display: block;
+    background-image: url(../../img/piso-negro-tablet.jpg);
+    background-size: cover;
+    width: 57.85%;
+    height: 400px;
+  }
+  .principal main .primer_vistaso .inicio_galeria {
+    width: 32.41%;
+  }
+  .principal main .galeria {
+    margin-top: 11px;
+    display: grid;
+    grid-template-areas: "banco marron" "banco texto";
+    grid-template-columns: 57.85% 40.7%;
+    grid-template-rows: 43.47% 55%;
+    gap: 11px;
+  }
+  .principal main .galeria::before {
+    content: "";
+    display: block;
+    background-image: url(../../img/banco-tablet.jpg);
+    background-size: cover;
+    height: 720px;
+    order: -1;
+    grid-area: banco;
+  }
+  .principal main .galeria::after {
+    content: "";
+    background-image: url(../../img/piso-marron-tablet.jpg);
+    background-size: cover;
+    height: 313px;
+    order: 1;
+    grid-area: marron;
+  }
+  .principal main .galeria div {
+    padding: 85px 29px 0px 29px;
+    grid-area: texto;
+    order: 2;
+  }
+}
+@media (max-width: 5000px) and (min-width: 1440px) {
+  .principal main {
+    padding: 180px 165px;
+  }
+  .principal main .primer_vistaso {
+    display: flex;
+    justify-content: space-between;
+  }
+  .principal main .primer_vistaso::after {
+    content: "";
+    background-image: url(../../img/piso-negro-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 57.26%;
+    display: flex;
+    height: 400px;
+  }
+  .principal main .primer_vistaso .inicio_galeria {
+    width: 31.56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .principal main .primer_vistaso .inicio_galeria h2 {
+    width: 300px;
+  }
+  .principal main .primer_vistaso .inicio_galeria h2 br {
+    display: none;
+  }
+  .principal main .galeria {
+    display: grid;
+    grid-template-columns: 57.26% 40.13%;
+    grid-template-rows: 43.47% 52.36%;
+    grid-template-areas: "banco marron" "banco texto";
+    gap: 30px;
+  }
+  .principal main .galeria::before {
+    content: "";
+    background-image: url(../../img/banco-desktop.jpg);
+    height: 720px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    order: -1;
+    grid-area: banco;
+  }
+  .principal main .galeria::after {
+    content: "";
+    background-image: url(../../img/piso-marron-desktop.jpg);
+    height: 313px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    order: 0;
+    grid-area: marron;
+  }
+  .principal main .galeria div {
+    order: 1;
+    grid-area: texto;
+    padding: 65px 47px 0px 47px;
+  }
+  .principal main .galeria div p {
+    padding-top: 32px;
+    line-height: 32px;
+    font-size: 22px;
+  }
+}
+
+.ubicacion main {
+  background-color: #151515;
+  color: #FFFFFF;
+  padding: 48px 16px 56px 16px;
+}
+.ubicacion main h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 45px;
+}
+.ubicacion main div {
+  padding-top: 48px;
+}
+.ubicacion main div h3 {
+  font-family: "Big Shoulders Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  color: #D5966C;
+}
+.ubicacion main div address {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.ubicacion main div address span {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+.ubicacion main p {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  padding-top: 20px;
+}
+@media (max-width: 1439px) and (min-width: 768px) {
+  .ubicacion main {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px 88px 40px;
+  }
+  .ubicacion main h1 {
+    width: 223px;
+  }
+  .ubicacion main div {
+    width: 57.85%;
+    padding-top: 0;
+  }
+}
+@media (max-width: 5000px) and (min-width: 1440px) {
+  .ubicacion main {
+    display: flex;
+    justify-content: space-between;
+    padding: 104px 165px 128px 165px;
+  }
+  .ubicacion main h1 {
+    width: 223px;
+    line-height: 70px;
+    font-size: 70px;
+  }
+  .ubicacion main div {
+    width: 57.85%;
+    padding-top: 0;
+  }
+  .ubicacion main div address {
+    padding-top: 24px;
+  }
+  .ubicacion main div p {
+    padding-top: 32px;
+  }
+}
+
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=estilos.css.map */
